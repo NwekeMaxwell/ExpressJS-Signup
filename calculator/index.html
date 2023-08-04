@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <form action="/" method="post">
+      <input name="num1" type="number" placeholder="first number" />
+      <input name="num2" type="number" placeholder="second number" />
+      <button type="submit" name="submit">calculate</button>
+    </form>
+    <div>
+      <a href="/about"> About Me </a> <br />
+      <a href="/contact"> Contact Me </a>
+    </div>
+    <script>
+      const firstNumber = getElementById("first");
+      const secondNumber = getElementById("second");
+      const submit = getElementById("submit");
+      submit.addEventListener("click", function () {
+        const sum = firstNumber.value + secondNumber.value;
+        alert(sum);
+      });
+    </script>
+  </body>
+</html>
+
+<!-- {
+} -->
