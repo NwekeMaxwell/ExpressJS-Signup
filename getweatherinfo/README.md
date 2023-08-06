@@ -4,3 +4,4 @@
 - GET REQUESTS IN NODE HTTPS
 - making HTTP requests in nodejs with HTTP-standard library
 - parsing JSON documents
+- Security using .env file
